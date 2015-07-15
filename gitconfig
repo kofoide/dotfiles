@@ -1,0 +1,11 @@
+[user]
+	name = Eric Kofoid
+	email = eric@kofoid.net
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/erickofoid/.gitignore_global
