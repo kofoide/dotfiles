@@ -6,6 +6,7 @@ alias .....="cd ../../../.."
 alias -- -="cd -"
 
 # Shortcuts
+alias "spip"="sudo -H pip"
 alias g="git"
 alias h="history"
 alias j="jobs"
