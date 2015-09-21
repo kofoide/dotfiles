@@ -30,7 +30,10 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # Python virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/projects
-source /usr/local/bin/virtualenvwrapper.sh
+
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+	source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # PIP
 # pip should only run if there is a virtualenv currently activated
