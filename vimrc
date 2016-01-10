@@ -9,6 +9,8 @@ call vundle#rc()
 Bundle 'gmarik/Vundle.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jlanzarotta/bufexplorer'
+Bundle 'tmhedberg/SimplyFold'
+Bundle 'vim-scripts/indentpython.vim'
 
 filetype plugin indent on  " required!
 
