@@ -53,3 +53,6 @@ fi
 if [ -f ~/.bash_local ]; then
 	source ~/.bash_local
 fi
+
+# added by Anaconda2 2.4.1 installer
+#export PATH="/Users/erickofoid/anaconda/bin:$PATH"
