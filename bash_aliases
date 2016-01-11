@@ -18,7 +18,8 @@ alias oo="open ."
 alias uem="open -a /Applications/Ultraedit.app/Contents/MacOS/UltraEdit"
 alias celar="clear" #misspelling of clear
 alias dp="cd ~/Dropbox/Projects"
-alias p="cd ~/Documents/projects"
+alias ep="cd ~/Documents/projects"
+alias rp="cd ~/Documents/Projects/Rockhurst/code"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
