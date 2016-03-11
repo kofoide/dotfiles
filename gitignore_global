@@ -7,6 +7,7 @@
 *.zip
 *.gz
 *.mp4
+ignore/
 
 #RStudio
 rstudio*.Rproj
