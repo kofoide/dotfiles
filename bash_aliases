@@ -18,7 +18,6 @@ alias oo="open ."
 alias uem="open -a /Applications/Ultraedit.app/Contents/MacOS/UltraEdit"
 alias celar="clear" #misspelling of clear
 alias lp="cd ~/Documents/projects"
-alias sp="cd ~/Documents/Seaboard/SeaboardProjects"
 alias dp="cd ~/Dropbox/Projects"
 alias rp="cd ~/Dropbox/Projects/Rockhurst"
 
