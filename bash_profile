@@ -56,3 +56,5 @@ fi
 
 # added by Anaconda2 2.4.1 installer
 #export PATH="/Users/erickofoid/anaconda/bin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
