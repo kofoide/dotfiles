@@ -46,6 +46,20 @@ function jn {
 	jupyter notebook
 }
 
+function jw {
+	jupyter notebook --notebook-dir="/Users/eric.kofoid/Documents/NHAAnalytics/Miscellaneous/Misc EK"
+}
+
+function ue()
+{
+   for FILE in "$@"; do
+      if [ ! -e "$FILE" ]; then
+        touch "$FILE"
+      fi
+   done
+   open -a "UltraEdit" "$@"
+}
+
 if [ -f ~/.bash_aliases_local ]; then
 	source ~/.bash_aliases_local
 fi

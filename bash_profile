@@ -50,9 +50,11 @@ if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
 fi
 
-if [ -f ~/.bash_local ]; then
-	source ~/.bash_local
+if [ -f ~/.bash_after_local ]; then
+	source ~/.bash_after_local
 fi
 
 # added by Anaconda2 2.4.1 installer
 #export PATH="/Users/erickofoid/anaconda/bin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
