@@ -48,8 +48,9 @@ syntax on
 " For solarized plugin (color scheme)
 " https://github.com/altercation/vim-colors-solarized
 if has('gui_running')
-  set background=dark
+  set background=light
   colorscheme solarized
 else
-  colorscheme zenburn
+  set background=dark
+  colorscheme solarized 
 endif
