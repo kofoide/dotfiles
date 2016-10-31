@@ -43,10 +43,6 @@ function jn {
 	jupyter notebook
 }
 
-function jw {
-	jupyter notebook --notebook-dir="/Users/eric.kofoid/Documents/NHAAnalytics/Miscellaneous/Misc EK"
-}
-
 function ue()
 {
    for FILE in "$@"; do
