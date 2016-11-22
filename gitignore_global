@@ -157,3 +157,6 @@ $RECYCLE.BIN/
 #Reporting Services
 *.rdl.data
 *Backup*.rdl
+
+# vi
+*.swp
