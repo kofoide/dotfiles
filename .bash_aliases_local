@@ -1,0 +1,19 @@
+# Sample .bash_aliases_local file
+
+alias ap="cd ~/Documents/Projects"
+alias wp="cd ~/Documents/Projects/NHAAnalytics"
+alias pp="cd ~/Documents/Projects/Personal"
+
+function jn {
+	jupyter notebook --notebook-dir="/Users/$default_username/Documents/Projects/"
+}
+
+function ue()
+{
+   for FILE in "$@"; do
+      if [ ! -e "$FILE" ]; then
+        touch "$FILE"
+      fi
+   done
+   open -a "UltraEdit" "$@"
+}

@@ -2,7 +2,8 @@
 export ARCHFLAGS="-arch x86_64"
 
 # Load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
+# * ~/.bash_path can be used to extend `$PATH`.
+# * ~/.bash_prompt can be used to build terminal prompt
 # * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{bash_path,bash_prompt,bash_exports,bash_aliases,bash_functions,bash_extra}; do
 	[ -r "$file" ] && source "$file"
