@@ -1,3 +1,2 @@
-set lines=40 columns=130
+set lines=35 columns=120
 set guifont=Menlo\ for\ Powerline:h16
-
