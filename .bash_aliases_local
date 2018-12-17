@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Sample .bash_aliases_local file
 
 alias ap="cd ~/Documents/Projects"
