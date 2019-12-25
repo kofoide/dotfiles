@@ -26,6 +26,11 @@ export GREP_OPTIONS="--color=auto"
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+
 # Java
 #export JAVA_HOME="$(/usr/libexec/java_home)"
 
@@ -33,8 +38,8 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 #export WORKON_HOME=$HOME/.virtualenvs
 #export PROJECT_HOME=$HOME/Documents/Projects
 
-#if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-#	source /usr/local/bin/virtualenvwrapper.sh
+#if [ -f ~/.pyenv/shims/virtualenvwrapper.sh ]; then
+#	source ~/.pyenv/shims/virtualenvwrapper.sh
 #fi
 
 # PIP
