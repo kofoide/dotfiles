@@ -28,7 +28,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # pyenv
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 
 # Java
