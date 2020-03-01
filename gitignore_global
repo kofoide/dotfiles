@@ -3,13 +3,7 @@
 *.DS_Store
 *.dmg
 
-# Rockhurst Class crap
-*.zip
-*.gz
-*.mp4
-ignore/
-
-#RStudio
+# RStudio
 rstudio*.Rproj
 .Rproj.user
 .Rhistory
@@ -163,7 +157,3 @@ $RECYCLE.BIN/
 
 #Visual Studio Code
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
