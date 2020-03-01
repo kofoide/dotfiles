@@ -49,15 +49,12 @@ fi
 # http://stackoverflow.com/questions/13804382/how-to-automatically-run-bin-bash-login-automatically-in-the-embeded-termin
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-if [ -f ~/.bashrc ]; then
-	source ~/.bashrc
-fi
+#if [ -f ~/.bashrc ]; then
+#	source ~/.bashrc
+#fi
 
 if [ -f ~/.bash_after_local ]; then
 	source ~/.bash_after_local
 fi
-
-# added by Anaconda2 2.4.1 installer
-#export PATH="/Users/erickofoid/anaconda/bin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
