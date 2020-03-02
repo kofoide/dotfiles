@@ -29,10 +29,9 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
-#if which pyenv-virtualenv-init > /dev/null; then
-#  eval "$(pyenv virtualenv-init -)";
-#fi
-#export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+
+# pipenv
+eval "$(pipenv --completion)"
 
 # Java
 #export JAVA_HOME="$(/usr/libexec/java_home)"
